@@ -1,7 +1,7 @@
 module github.com/hashicorp/packer
 
 require (
-	cloud.google.com/go v0.66.0
+	cloud.google.com/go/compute/metadata v0.2.3
 	github.com/1and1/oneandone-cloudserver-sdk-go v1.0.1
 	github.com/Azure/azure-sdk-for-go v40.5.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.10.0
@@ -32,9 +32,9 @@ require (
 	github.com/go-resty/resty/v2 v2.3.0
 	github.com/gobwas/glob v0.2.3
 	github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3
-	github.com/google/go-cmp v0.5.2
+	github.com/google/go-cmp v0.5.9
 	github.com/google/go-github/v33 v33.0.1-0.20210113204525-9318e629ec69
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 	github.com/gophercloud/gophercloud v0.12.0
 	github.com/gophercloud/utils v0.0.0-20200508015959-b0167b94122c
 	github.com/grpc-ecosystem/go-grpc-middleware v1.1.0
@@ -77,7 +77,7 @@ require (
 	github.com/profitbricks/profitbricks-sdk-go v4.0.2+incompatible
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.7
 	github.com/shirou/gopsutil v3.21.1+incompatible
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.1
 	github.com/tencentcloud/tencentcloud-sdk-go v3.0.222+incompatible
 	github.com/ucloud/ucloud-sdk-go v0.16.3
 	github.com/ufilesdk-dev/ufile-gosdk v0.0.0-20190830075812-b4dbc4ef43a6
@@ -88,16 +88,16 @@ require (
 	github.com/yandex-cloud/go-sdk v0.0.0-20200921111412-ef15ded2014c
 	github.com/zclconf/go-cty v1.7.0
 	github.com/zclconf/go-cty-yaml v1.0.1
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
 	golang.org/x/mobile v0.0.0-20201208152944-da85bec010a2
-	golang.org/x/mod v0.3.0
-	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
-	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c
-	golang.org/x/tools v0.0.0-20201111133315-69daaf961d65
-	google.golang.org/api v0.32.0
-	google.golang.org/grpc v1.32.0
+	golang.org/x/mod v0.7.0
+	golang.org/x/net v0.5.0
+	golang.org/x/oauth2 v0.4.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.4.0
+	golang.org/x/tools v0.3.0
+	google.golang.org/api v0.103.0
+	google.golang.org/grpc v1.53.0
 )
 
 go 1.16
